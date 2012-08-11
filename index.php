@@ -1,7 +1,7 @@
 <?php
 $currentHost = $_SERVER['HTTP_HOST'];
 echo '<pre>';
-print_r($_SERVER['HTTP_HOST']);
+print_r($_SERVER);
 echo '</pre>';
 echo '<h1>Home page</h1>';
 echo '<a href="git1.php">git1</a>';
