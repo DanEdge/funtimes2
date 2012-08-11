@@ -5,5 +5,6 @@ echo '<a href="git1.php">git1</a>';
 echo '<a href="git2.php">git2</a>';
 echo '<br />Made a change';
 echo '<br /> . $currentHost;
+git remote add origin https://github.com/username/Hello-World.git
 
 ?>
