@@ -5,7 +5,7 @@ if ($_SERVER['HTTP_HOST'] == '127.0.0.1' || 'localhost')
 }
 elseif ($_SERVER['HTTP_HOST'] == 'thepeakdistrict.org.uk')
 {
-	echo 'HTTP_HOST ' . $_SERVER['HTTP_HOST'];	3
+	echo 'HTTP_HOST ' . $_SERVER['HTTP_HOST'];
 }
 elseif ($_SERVER['HTTP_HOST'] == 'dev.thepeakdistrict.org.uk')
 {
