@@ -1,13 +1,14 @@
 <?php
-$currentHost = $_SERVER['HTTP_HOST'];
-
-echo '<h1>Home page</h1>';
-echo '<a href="git1.php">git1</a>';
-echo '<a href="git2.php">git2</a>';
-echo '<br />Made a change';
-echo '<br />' . 'Current host: ' . $currentHost;
-echo '<br />' . gethostname();
-echo '<pre>';
-print_r($_SERVER);
-echo '</pre>';
+if ($_SERVER['HTTP_HOST'] == '127.0.0.1' || 'localhost')
+{
+	echo 'HTTP_HOST ' . $_SERVER['HTTP_HOST'];
+}
+elseif ($_SERVER['HTTP_HOST'] == 'thepeakdistrict.org.uk')
+{
+	echo 'HTTP_HOST ' . $_SERVER['HTTP_HOST'];	3
+}
+elseif ($_SERVER['HTTP_HOST'] == 'dev.thepeakdistrict.org.uk')
+{
+	echo 'HTTP_HOST ' . $_SERVER['HTTP_HOST'];
+}
 ?>
